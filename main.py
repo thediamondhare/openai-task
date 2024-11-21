@@ -15,7 +15,7 @@ def main():
         Produce a single page website body content with article according five guidelines listed below:
         Guidelines:
         1. This should be an HTML file.
-        2. The content should contain an article content: """ + articleText +""" 
+        2. The content should contain an article text: """ + articleText +""" 
         3. An article mentioned before should be splitted into paragraphs.
         4. Choose where in the article mentioned before it's worth to place an image or images and create there the <img> tag with attribute src="image_placeholder.jpg" and for the every <img> tag choose content of an alt attribute which would be needed for generating the suitable image with openai.
 
