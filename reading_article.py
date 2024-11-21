@@ -16,6 +16,6 @@ def saveArticleContent():
   
 def readArticleContent():
     saveArticleContent()
-    articleText = pd.read_csv('text.csv', sep="::", encoding="utf-8")
+    articleText = pd.read_csv('text.csv', sep="::", encoding="utf-8", engine='python')
     return articleText
 
